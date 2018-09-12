@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:80}
+  
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none

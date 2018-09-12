@@ -1,0 +1,12 @@
+{
+    "runtime": {
+        "majorVersion": "9"
+    },
+    "command": "java -Xmx1G -jar @build.finalName@.@packaging@",
+    "release": {
+    	"build": "@git.build.time@",
+        "version": "@version@",
+        "commit": "@git.commit.id@"
+    },
+    "notes": "@description@"
+}
