@@ -1,1 +1,1 @@
-insert into customer (name,email) values ('foo','foo@exmaple.com');
+insert into customer (name,email) values ('foo','foo@example.com');
