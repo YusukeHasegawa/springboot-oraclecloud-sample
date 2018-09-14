@@ -19,7 +19,7 @@
 			<directory>${project.build.directory}/classes/acc</directory>
 			<outputDirectory />
 			<includes>
-				<include>*.json</include>
+				<include>manifest.json</include>
 			</includes>
 		</fileSet>
 	</fileSets>
